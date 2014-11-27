@@ -1,0 +1,13 @@
+<!Doctype html>
+<html>
+<head></head>
+<body>
+
+<form method="post" action="{{ url_for('get') }}">
+ Name:<input name="name" required></input>
+ <button type="submit">Get Data</button>
+</form>
+
+<p>{{obj}}</p>
+</body>
+</html>
